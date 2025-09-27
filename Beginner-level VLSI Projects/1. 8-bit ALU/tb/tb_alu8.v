@@ -11,6 +11,9 @@ module tb_alu8;
     initial begin
         $dumpfile("alu8.vcd");
         $dumpvars(0, tb_alu8);
+        A = 8'h00;
+        B = 8'h00;
+        op = 3'b000;
 
         $display("time\tA\tB\top\tY\tZ C V");
         $monitor("%0t\t%h\t%h\t%b\t%h\t%b %b %b",$time,A,B,op,Y,Z,C,V);
