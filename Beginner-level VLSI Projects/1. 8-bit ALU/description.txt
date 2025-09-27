@@ -1,1 +1,0 @@
-This project covers the design of a 8-bit ALU in verilog HDL, demonstrating strong basics in combinational logic
