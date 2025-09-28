@@ -10,6 +10,7 @@
 // 110: SHR (A >> 1)
 // 111: PASS A
 
+`timescale 1ns/1ps
 module alu8 (
     input  wire [7:0] A,
     input  wire [7:0] B,
@@ -61,4 +62,3 @@ module alu8 (
     end
 
 endmodule
-
